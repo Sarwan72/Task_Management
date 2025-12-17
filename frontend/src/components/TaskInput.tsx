@@ -1,13 +1,13 @@
 import { useState } from "react";
-import type { Task, Priority,category } from "../types/task";
-import { nanoid } from "nanoid";
+import type { Task, Priority } from "../types/task";
+// import { nanoid } from "nanoid";
 interface Props {
   onSubmit: (task: Omit<Task, "_id">) => void;
 }
 
 const TaskInput = ({ onSubmit }: Props) => {
   const [task, setTask]= useState("");
-  const [text, setText] = useState("");
+  // const [text, setText] = useState("");
   const [priority, setPriority] = useState<Priority>("Medium");
   // const [category, setCategory] = useState<Category>("General");
   const [description, setDescription] = useState("");
