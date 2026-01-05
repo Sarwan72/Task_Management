@@ -3,16 +3,9 @@
 A production-ready **full-stack task management application** built using **React, TypeScript, Node.js, Express, MongoDB, Socket.io**, and **React Query**.  
 The app supports **authentication, full CRUD operations, real-time updates**, and a **modern responsive UI**.
 
----
 
-## 🚀 Live Demo
 
-- **Frontend:** http://localhost:5173  
-- **Backend API:** http://localhost:5000  
 
-> ⚠️ Replace with deployed URLs (Vercel / Netlify / Render) before final submission.
-
----
 
 ## 🧩 Tech Stack
 
